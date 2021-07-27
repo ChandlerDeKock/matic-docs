@@ -47,7 +47,7 @@ module.exports = {
         "develop/network-details/mapped-tokens",
         "develop/network-details/gas-token",
         "develop/network-details/genesis-contracts",
-        "develop/network-details/full-node-deployment",
+        "integrate/full-node-deployment",
       ],
     },
     {
@@ -202,7 +202,7 @@ module.exports = {
       type: "category",
       label: "Oracles",
       items: [
-      
+        "develop/oracles/optimisticoracle",
         "develop/oracles/getting-started",
         "develop/oracles/optimisticoracle",
         "develop/oracles/chainlink",
@@ -537,7 +537,7 @@ module.exports = {
     // "faq/delegator-faq",
     "faq/commit-chain-multisigs",
     "faq/staking-faq",
-    "faq/staking-tutorials",
+    // "faq/staking-tutorials",
     "faq/wallet-bridge-faq",
     "faq/consensys-framework",
   ],
